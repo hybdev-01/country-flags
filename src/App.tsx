@@ -13,8 +13,8 @@ function App() {
       <Header />
       <Main>
         <Routes>
-          <Route path="/country-flags" element={<HomePage />} />
-          <Route path="/country-flags/country/:name" element={<Details />} />
+          <Route index path="/country-flags" element={<HomePage />} />
+          <Route path="/country/:name" element={<Details />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Main>
