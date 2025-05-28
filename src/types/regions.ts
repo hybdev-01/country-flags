@@ -1,0 +1,1 @@
+export type Region = 'Asia' | 'Africa' | 'Europe' | 'America' | 'Oceania'
