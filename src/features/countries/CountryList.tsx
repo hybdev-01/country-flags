@@ -40,7 +40,7 @@ const CountryList = () => {
             return (
               <Card
                 key={c.name}
-                onClick={() => navigate(`/country/${c.name}`)}
+                onClick={() => navigate(`/country-flags/country/${c.name}`)}
                 {...countryInfo}
               />
             );
